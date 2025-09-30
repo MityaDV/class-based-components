@@ -16,18 +16,18 @@ class CustomerFilter extends Component {
   constructor() {
     super();
     this.state = {
-      filteredCustomers: DUMMY_CUSTOMERS,
+      filteredCustomers: [],
       filter: ''
     };
   }
 
-  //   componentDidMount() {
-  //     // Отправить HTTP запрос...
-  //     this.setState({
-  //       filteredCustomers: this.context.customers
-  //     });
-  //   }
-  //
+  componentDidMount() {
+    // Отправить HTTP запрос...
+    this.setState({
+      filteredCustomers: DUMMY_CUSTOMERS
+    });
+  }
+
   componentDidUpdate(prevProps, prevState) {
     if (prevState.filter !== this.state.filter) {
       this.setState({
