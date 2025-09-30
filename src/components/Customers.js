@@ -18,6 +18,12 @@ class Customers extends Component {
     };
   }
 
+  componentDidUpdate() {
+    if (this.props.customers.length === 0) {
+      throw new Error('No customers found.');
+    }
+  }
+
   toggleCustomersHandler() {
     // this.state.showCustomers = false - НЕПРАВИЛЬНО
     this.setState((curState) => {
