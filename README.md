@@ -1,9 +1,6 @@
-<h1 align="center">Welcome to react-food-order-app 👋</h1>
+<h1 align="center">Welcome to class-based-components 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
-  <a href="node v16" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
 </p>
 
 ### Use node v16
